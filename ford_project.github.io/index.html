@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row footer">
+            <div class="col d-flex justify-content-center justify-content-lg-around bg-white top-list-main">
+                <div class="w-100 d-flex justify-content-center justify-content-lg-between bg-white">
+                    <ul class="h-100 d-none d-lg-flex list-unstyled ms-lg-5 top-list">
+                        <li class="px-3 item-list">Vehicles</li>
+                        <li class="px-3 item-list">Shop</li>
+                        <li class="px-3 item-list">Support & Service</li>
+                    </ul>
+                    <div class="logo"></div>
+                    <div class="d-flex bg-white nav-icon-top">
+                        <i class="w-50 bi bi-globe d-none d-lg-block nav-bottom"></i>
+                        <i class="w-50 bi bi-search d-none d-lg-block nav-bottom"></i>
+                    </div>
+                </div>
+                <div class="line-container d-lg-none">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <div class="line-3"></div>
+                    <span class="text-menu">Menu</span>
+                </div>
+            </div>
+            <!-- ******************************************** -->
+            <div class="col px-3 pt-2 d-lg-none position-fixed overflow-auto bg-white navigation">
+                <div class="d-flex color-nav-top nav-top">
+                    <span class="w-50 nav-text">vehicles</span><i class="bi bi-dash-lg w-50 nav-icon"></i>
+                </div>
+
+                <div class="flex-column justify-content-between pb-4 overflow-hidden nav-box">
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item nav-itemBox">SUVs & Cars
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item nav-itemBox">Trucks &
+                        Vans
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item nav-itemBox">Electrified
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item nav-itemBox">Performance
+                        Vehicles
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item nav-itemBox">Commercial
+                        Vehicles
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item nav-itemBox">Future
+                        Vehicles
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                </div>
+
+                <div class="d-flex nav-top">
+                    <span class="w-50 nav-text">shop</span>
+                    <i class="bi bi-plus w-50 nav-icon"></i>
+                </div>
+
+                <div class="flex-column overflow-hidden nav-box nav-showHidden">
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">Build and Price
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">Search Inventory
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">Accessories
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">Merchandise
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">Special Offers
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">BlueCruise
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">Certified Used
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">EV Chargers
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">Parts
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent mt-4 nav-item">Ford Credit
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">Financing Options
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">Pre-Qualify
+                    </button>
+                </div>
+
+                <div class="d-flex nav-top">
+                    <span class="w-50 nav-text">Support & Service</span>
+                    <i class="bi bi-plus w-50 nav-icon"></i>
+                </div>
+
+                <div class="flex-column overflow-hidden pb-4 nav-box nav-showHidden">
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">Support Home
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">FordPass App
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">FordPass Rewards
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">Service & Maintenance
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">SYNC & Technology
+                        Support
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">Electric Vehicle Support
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent mt-4 nav-item">Recalls
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">Owner Manuals
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">SYNC & Navigation
+                        Updates
+                    </button>
+                    <button class="d-flex justify-content-between py-2 bg-transparent nav-item">Pickup & Delivery
+                    </button>
+                </div>
+                <div class="d-flex flex-row-reverse mt-4">
+                    <i class="bi bi-search nav-bottom"></i>
+                    <i class="bi bi-globe me-3 nav-bottom"></i>
+                </div>
+            </div>
+            <!-- SUVs & Cars -->
+            <div class="col-12 w-100 position-absolute nav-vehicles showHidden-vehicles bg-white">
+                <div class="w-100 d-flex py-2">
+                    <i class="bi bi-chevron-left icon-vehicles"></i>
+                    <h3 class="w-100 text-center pt-1 m-0">SUVs & Cars</h3>
+                </div>
+
+                <div class="w-100 text-center p-3 capable">
+                    <h2 class="m-0">Capable, convenient and versatile</h2>
+                    <span id="tx-nv">See the Ford Family of SUVs & Cars
+                        <i class="bi bi-arrow-right fs-6"></i>
+                    </span>
+                </div>
+
+                <ul class="p-0 list-unstyled">
+                    <li class="text-center">
+                        <img src="images/cq5dam.web.1280.1280.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">2024 Mustang</span> <br> Starting at $30,920</p>
+                    </li>
+                    <li class="text-center">
+                        <img src="images/cq5dams.web.1280.1280.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Escape®</span><br>Starting at $28,000</p>
+                    </li>
+                    <li class="text-center">
+                        <img src="images/cq5damg.webg.1280.1280.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Bronco® Sport</span><br>Starting at $29,215</p>
+                    </li>
+                    <li class="text-center">
+                        <img src="images/cq5damq.web.1280.1280.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Bronco®</span><br>Starting at $34,890</p>
+                    </li>
+                    <li class="text-center">
+                        <img src="images/cq5damd.web.1280.1280.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Explorer</span><br>Starting at $36,760</p>
+                    </li>
+                    <li class="text-center">
+                        <img src="images/cq5damj.web.1280.1280.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Edge</span><br>Starting at $37,945</p>
+                    </li>
+                    <li class="text-center">
+                        <img src="images/cq5dama.web.1280.1280.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Mustang Mach-E®</span><br></p>
+                    </li>
+                    <li class="text-center">
+                        <img src="images/cq5daml.web.1280.1280.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Expedition</span><br>Starting at $55,725</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- Trucks & Vans -->
+            <div class="col-12 w-100 position-absolute nav-vehicles showHidden-vehicles bg-white">
+                <div class="w-100 d-flex py-2">
+                    <i class="bi bi-chevron-left icon-vehicles"></i>
+                    <h3 class="w-100 text-center pt-1 m-0">Trucks & Vans</h3>
+                </div>
+
+                <div class="w-100 text-center p-3 capable">
+                    <h2 class="m-0">Hauling, towing, and off-roading</h2>
+                    <span id="tx-nv">See the Ford Family of Trucks
+                        <i class="bi bi-arrow-right fs-6"></i>
+                    </span>
+                </div>
+
+                <ul class="p-0 list-unstyled">
+                    <li class="text-center pt-4">
+                        <img src="images/car1.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Maverick®</span> <br> Starting at $22,595</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car2.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Ranger®</span><br>Starting at $27,400</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car3.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">F-150®</span><br>Starting at $29,215</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car4.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Transit Connect®</span><br>Starting at $34,890</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car5.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Super Duty®</span><br>Starting at $36,760</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car6.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">F-150 Lightning®</span><br>Starting at $37,945</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car7.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">F-150 Lightning®</span><br>Starting at $45,995</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car8.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Transit</span><br>Starting at $55,725</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- Electrified -->
+            <div class="col-12 w-100 position-absolute nav-vehicles showHidden-vehicles bg-white">
+                <div class="w-100 d-flex py-2">
+                    <i class="bi bi-chevron-left icon-vehicles"></i>
+                    <h3 class="w-100 text-center pt-1 m-0">Electrified</h3>
+                </div>
+
+                <div class="w-100 text-center p-3 capable">
+                    <h2 class="m-0">What does going electric mean?</h2>
+                    <span id="tx-nv">Learn more about EVs
+                        <i class="bi bi-arrow-right fs-6"></i>
+                    </span>
+                </div>
+
+                <ul class="p-0 list-unstyled">
+                    <li class="text-center pt-4">
+                        <img src="images/car17.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Mustang Mach-E®</span> <br></p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car18.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">F-150 Lightning®</span><br>Starting at $28,000</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car19.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">E-Transit™</span><br>Starting at $29,215</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car20.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Maverick®</span><br>Starting at $34,890</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car21.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">F-150®</span><br>Starting at $36,760</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car22.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Escape® ST-Line Elite Hybrid</span><br>Starting at $37,945</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car23.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Escape® Plug-in Hybrid</span><br>Starting at $36,760</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car24.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Explorer Limited</span><br>Starting at $55,725</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- Performance Vehicles -->
+            <div class="col-12 w-100 position-absolute nav-vehicles showHidden-vehicles bg-white">
+                <div class="w-100 d-flex py-2">
+                    <i class="bi bi-chevron-left icon-vehicles"></i>
+                    <h3 class="w-100 text-center pt-1 m-0">Performance Vehicles</h3>
+                </div>
+
+                <div class="w-100 text-center p-3 capable">
+                    <h2 class="m-0">Motorsports, Parts & Clubs </h2>
+                    <span id="tx-nv">Learn more about EVs
+                        <i class="bi bi-arrow-right fs-6"></i>
+                    </span>
+                </div>
+
+                <ul class="p-0 list-unstyled">
+                    <li class="text-center pt-4">
+                        <img src="images/car25.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">EDGE ST</span> <br>Starting at $29,215</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car26.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Explorer ST</span><br>Starting at $28,000</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car27.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Mustang® Mach 1®</span><br>Starting at $29,215</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car28.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Bronco Raptor®</span><br>Starting at $34,890</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car29.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">F-150® Raptor®</span><br>Starting at $36,760</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car30.webp" class="w-100">
+                        <p><span class="fs-6 fw-bolder">F-150® Raptor R™</span><br></p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car31.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Ford GT Mk IV</span><br></p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car32.webp" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Ford Mustang GT3</span><br></p>
+                    </li>
+                </ul>
+            </div>
+            <!-- Commercial Vehicles  -->
+            <div class="col-12 w-100 position-absolute nav-vehicles showHidden-vehicles bg-white">
+                <div class="w-100 d-flex py-2">
+                    <i class="bi bi-chevron-left icon-vehicles"></i>
+                    <h3 class="w-100 text-center pt-1 m-0">Commercial Vehicles </h3>
+                </div>
+
+                <div class="w-100 text-center p-3 capable">
+                    <h2 class="m-0">Ford Pro offers the tools, software and services to keep your business on track and
+                        crews on the road. </h2>
+                    <span id="tx-nv">Learn more about Ford Pro
+                        <i class="bi bi-arrow-right fs-6"></i>
+                    </span>
+                </div>
+
+                <ul class="p-0 list-unstyled">
+                    <li class="text-center pt-4">
+                        <img src="images/car33.png" class="w-100">
+                        <p><span class="fs-6 fw-bolder">E-Series Stripped Chassis</span> <br>Starting at $29,215</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car34.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Transit Connect®</span><br>Starting at $28,000</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car35.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Stripped Chassis</span><br>Starting at $29,215</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car36.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">E-Series Cutaway</span><br>Starting at $34,890</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car37.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Transit CC-CA</span><br>Starting at $36,760</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car38.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Transit</span><br>Starting at $34,890</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car40.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Super Duty®</span><br>Starting at $34,890</p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car41.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">Chassis Cab</span><br>Starting at $34,890</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- Future Vehicles -->
+            <div class="col-12 w-100 position-absolute nav-vehicles showHidden-vehicles bg-white">
+                <div class="w-100 d-flex py-2">
+                    <i class="bi bi-chevron-left icon-vehicles"></i>
+                    <h3 class="w-100 text-center pt-1 m-0">Future Vehicles</h3>
+                </div>
+
+                <div class="w-100 text-center p-3 capable">
+                    <h2 class="m-0">Moving ahead to move you</h2>
+                    <span id="tx-nv">See what's in the Future at Ford
+                        <i class="bi bi-arrow-right fs-6"></i>
+                    </span>
+                </div>
+
+                <ul class="p-0 list-unstyled">
+                    <li class="text-center pt-4">
+                        <img src="images/car42.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">2024 Mustang</span><br></p>
+                    </li>
+                    <li class="text-center pt-4">
+                        <img src="images/car43.avif" class="w-100">
+                        <p><span class="fs-6 fw-bolder">2024 Ranger</span><br></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ****************************** -->
+    <div class="container-fluid w-100 position-absolute bg-white nav-opening" style="display: none">
+        <div class="row">
+            <div class="col-4">
+                <div>
+                    <button
+                        class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item nav-cars cars-style">SUVs
+                        & Cars
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                    <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item nav-cars">Trucks &
+                        Vans
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                    <button
+                        class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item nav-cars">Electrified
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                    <button
+                        class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item nav-cars">Performance
+                        Vehicles
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                    <button
+                        class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item nav-cars">Commercial
+                        Vehicles
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                    <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item nav-cars">Future
+                        Vehicles
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="col ">
+                <!-- SUVs & Cars -->
+                <div class="p-3 flex-column align-items-center nav-segment">
+                    <div class="w-100 text-center p-3 capable">
+                        <h2 class="m-0">Capable, convenient and versatile</h2>
+                        <span id="tx-nv">See the Ford Family of SUVs & Cars
+                            <i class="bi bi-arrow-right fs-6"></i>
+                        </span>
+                    </div>
+                    <ul class="d-flex flex-wrap p-0 m-0 list-unstyled item-car">
+                        <div class="w-100 d-flex ul-1">
+                            <li>
+                                <img src="images/cq5dam.web.1280.1280.avif" class="w-100">
+                                <p><span>2024 Mustang</span> <br> Starting at $30,920</p>
+                            </li>
+                            <li>
+                                <img src="images/cq5dams.web.1280.1280.avif" class="w-100">
+                                <p><span>Escape®</span><br>Starting at $28,000</p>
+                            </li>
+                            <li>
+                                <img src="images/cq5damg.webg.1280.1280.avif" class="w-100">
+                                <p><span>Bronco® Sport</span><br>Starting at $29,215</p>
+                            </li>
+                            <li>
+                                <img src="images/cq5damq.web.1280.1280.avif" class="w-100">
+                                <p><span>Bronco®</span><br>Starting at $34,890</p>
+                            </li>
+                        </div>
+                        <div class="d-flex ul-2">
+                            <li>
+                                <img src="images/cq5damd.web.1280.1280.avif" class="w-100">
+                                <p><span>Explorer</span><br>Starting at $36,760</p>
+                            </li>
+                            <li>
+                                <img src="images/cq5damj.web.1280.1280.avif" class="w-100">
+                                <p><span>Edge</span><br>Starting at $37,945</p>
+                            </li>
+                            <li>
+                                <img src="images/cq5dama.web.1280.1280.avif" class="w-100">
+                                <p><span>Mustang Mach-E®</span><br></p>
+                            </li>
+                            <li>
+                                <img src="images/cq5daml.web.1280.1280.avif" class="w-100">
+                                <p><span>Expedition</span><br>Starting at $55,725</p>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <!-- Trucks & Vans -->
+                <div class="p-3 flex-column align-items-center nav-segment showHidden-vehicles">
+                    <div class="w-100 text-center p-3 capable">
+                        <h2 class="m-0">Hauling, towing, and off-roading</h2>
+                        <span id="tx-nv">See the Ford Family of Trucks
+                            <i class="bi bi-arrow-right fs-6"></i>
+                        </span>
+                    </div>
+                    <ul class="d-flex flex-wrap p-0 m-0 list-unstyled item-car">
+                        <div class="w-100 d-flex ul-1">
+                            <li class="text-center pt-4">
+                                <img src="images/car1.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Maverick®</span> <br> Starting at $22,595</p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car2.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Ranger®</span><br>Starting at $27,400</p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car3.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">F-150®</span><br>Starting at $29,215</p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car4.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Transit Connect®</span><br>Starting at $34,890</p>
+                            </li>
+                        </div>
+                        <div class="d-flex ul-2">
+                            <li class="text-center pt-4">
+                                <img src="images/car5.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Super Duty®</span><br>Starting at $36,760</p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car6.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">F-150 Lightning®</span><br></p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car7.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">E-Transit™</span><br>Starting at $45,995</p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car8.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Transit</span><br>Starting at $55,725</p>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <!-- Electrified -->
+                <div class="p-3 flex-column align-items-center nav-segment showHidden-vehicles">
+                    <div class="w-100 text-center p-3 capable">
+                        <h2 class="m-0">What does going electric mean?</h2>
+                        <span id="tx-nv">Learn more about EVs
+                            <i class="bi bi-arrow-right fs-6"></i>
+                        </span>
+                    </div>
+                    <ul class="d-flex flex-wrap p-0 m-0 list-unstyled item-car">
+                        <div class="w-100 d-flex ul-1">
+                            <li class="text-center pt-4">
+                                <img src="images/car17.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Mustang Mach-E®</span> <br></p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car18.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">F-150 Lightning®</span><br></p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car19.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">E-Transit™</span><br>Starting at $29,215</p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car20.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Maverick®</span><br>Starting at $34,890</p>
+                            </li>
+                        </div>
+                        <div class="d-flex ul-2">
+                            <li class="text-center pt-4">
+                                <img src="images/car21.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">F-150®</span><br>Starting at $36,760</p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car22.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Escape® ST-Line Elite Hybrid</span><br></p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car23.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Escape® Plug-in Hybrid</span><br>Starting at $36,760</p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car24.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Explorer Limited</span><br>Starting at $55,725</p>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <!-- Performance Vehicles -->
+                <div class="p-3 flex-column align-items-center nav-segment showHidden-vehicles">
+                    <div class="w-100 text-center p-3 capable">
+                        <h2 class="m-0">Motorsports, Parts & Clubs</h2>
+                        <span id="tx-nv">Check out the latest in Performance
+                            <i class="bi bi-arrow-right fs-6"></i>
+                        </span>
+                    </div>
+                    <ul class="d-flex flex-wrap p-0 m-0 list-unstyled item-car">
+                        <div class="w-100 d-flex ul-1">
+                            <li class="text-center pt-4">
+                                <img src="images/car25.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">EDGE ST</span> <br>Starting at $29,215</p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car26.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Explorer ST</span><br>Starting at $28,000</p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car27.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Mustang® Mach 1®</span><br>Starting at $29,215</p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car28.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Bronco Raptor®</span><br>Starting at $34,890</p>
+                            </li>
+                        </div>
+                        <div class="d-flex ul-2">
+                            <li class="text-center pt-4">
+                                <img src="images/car29.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">F-150® Raptor®</span><br>Starting at $36,760</p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car30.webp" class="w-100">
+                                <p><span class="fs-6 fw-bolder">F-150® Raptor R™</span><br></p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car31.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Ford GT Mk IV</span><br></p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car32.webp" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Ford Mustang GT3</span><br></p>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <!-- Commercial Vehicles  -->
+                <div class="p-3 flex-column align-items-center nav-segment showHidden-vehicles">
+                    <div class="w-100 text-center p-3 capable">
+                        <h2 class="m-0">Ford Pro offers the tools, software and services to keep your business on track
+                            and crews on the road.</h2>
+                        <span id="tx-nv">Learn more about Ford Pro
+                            <i class="bi bi-arrow-right fs-6"></i>
+                        </span>
+                    </div>
+                    <ul class="d-flex flex-wrap p-0 m-0 list-unstyled item-car">
+                        <div class="w-100 d-flex ul-1">
+                            <li class="text-center pt-2">
+                                <img src="images/car33.png" class="w-100">
+                                <p><span class="fs-6 fw-bolder">E-Series Stripped Chassis</span> <br>Starting at $29,215
+                                </p>
+                            </li>
+                            <li class="text-center pt-2">
+                                <img src="images/car34.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Transit Connect®</span><br>Starting at $28,000</p>
+                            </li>
+                            <li class="text-center pt-2">
+                                <img src="images/car35.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Stripped Chassis</span><br>Starting at $29,215</p>
+                            </li>
+                            <li class="text-center pt-2">
+                                <img src="images/car36.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">E-Series Cutaway</span><br>Starting at $34,890</p>
+                            </li>
+                        </div>
+                        <div class="d-flex ul-2">
+                            <li class="text-center pt-3">
+                                <img src="images/car37.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Transit CC-CA</span><br>Starting at $36,760</p>
+                            </li>
+                            <li class="text-center pt-3">
+                                <img src="images/car38.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Transit</span><br>Starting at $34,890</p>
+                            </li>
+                            <li class="text-center pt-3">
+                                <img src="images/car40.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Super Duty®</span><br>Starting at $34,890</p>
+                            </li>
+                            <li class="text-center pt-3">
+                                <img src="images/car41.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">Chassis Cab</span><br>Starting at $34,890</p>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <!-- Future Vehicles -->
+                <div class="p-3 flex-column align-items-center nav-segment showHidden-vehicles">
+                    <div class="w-100 text-center p-3 capable">
+                        <h2 class="m-0">Ford Pro offers the tools, software and services to keep your business on track
+                            and crews on the road.</h2>
+                        <span id="tx-nv">Learn more about Ford Pro
+                            <i class="bi bi-arrow-right fs-6"></i>
+                        </span>
+                    </div>
+                    <ul class="d-flex flex-wrap p-0 m-0 list-unstyled item-car">
+                        <div class="w-100 d-flex ul-1">
+                            <li class="text-center pt-4">
+                                <img src="images/car42.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">2024 Mustang</span><br></p>
+                            </li>
+                            <li class="text-center pt-4">
+                                <img src="images/car43.avif" class="w-100">
+                                <p><span class="fs-6 fw-bolder">2024 Ranger</span><br></p>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid d-none d-lg-block">
+        <div class="row">
+            <div class="col-2 position-absolute overflow-auto pt-3 bg-white nav-shop" style="display: none;">
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">Build and Price
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">Search Inventory
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">Accessories
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">Merchandise
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">Special Offers
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">BlueCruise
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">Certified Used
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">EV Chargers
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">Parts
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent mt-4 nav-item">Ford Credit
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">Financing Options
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">Pre-Qualify
+                </button>
+            </div>
+            <div class="col-3 position-absolute overflow-auto pt-3 bg-white nav-support" style="display: none;">
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">Support Home
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">FordPass App
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">FordPass Rewards
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">Service & Maintenance
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">SYNC & Technology
+                    Support
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">Electric Vehicle
+                    Support
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent mt-4 nav-item">Recalls
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">Owner Manuals
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">SYNC & Navigation
+                    Updates
+                </button>
+                <button class="w-100 d-flex justify-content-between py-2 bg-transparent nav-item">Pickup & Delivery
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--******************************************************  -->
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 box1 text-white">
+                <p class="m-0">Certain Mustang <sup>®</sup> Mach-E<sup>®</sup> and F-150<sup>®</sup>
+                    Lightning<sup>®</sup> Models are <a href="#" class="link-light">Currently Eligible</a> for Potential
+                    Federal Tax Credits*</p>
+            </div>
+            <div class="col-12 p-5 box2">
+                <a href="#" class="h-100 d-block text-center text-lg-start text-decoration-none mx-auto text-white">
+                    <h2 class="display-6 fw-bolder">All Electric - All Yours</h2>
+                    <span>2023 Ford Mustang Mach-E <i class="bi bi-arrow-right-circle-fill ms-2"></i></span>
+                </a>
+            </div>
+            <div class="col-12 box3">
+                <h2>Pick Up Where You Left Off</h2>
+            </div>
+            <div class="col-12 box4">
+                <div class="slideshow-container">
+                    <div class="d-md-none mySlides1">
+                        <img src="images/vehicle1.avif" class="w-100">
+                        <div class="box-slide d-flex flex-column p-3">
+                            <p class="m-0">2023</p>
+                            <span>Bronco® Sport</span>
+                            <span>Starting at $34,890</span>
+                            <a href="#" class="text-decoration-none">Overview</a>
+                            <span class="mt-5 text-info">View All Offers<i class="bi bi-chevron-right"></i> </span>
+                        </div>
+                    </div>
+
+                    <div class="d-md-none mySlides1">
+                        <img src="images/vehicle2.avif" class="w-100">
+                        <div class="box-slide d-flex flex-column p-3">
+                            <p class="m-0">2023</p>
+                            <span>Mustang Mach-E®</span>
+                            <span>Starting at $42,995</span>
+                            <a href="#" class="text-decoration-none">Overview</a>
+                            <span class="mt-5 text-info">View All Offers<i class="bi bi-chevron-right"></i> </span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center d-md-none pb-4 box-arrow">
+                        <a class="prev" onclick="plusSlides(-1, 0)"><i class="bi bi-chevron-left ms-1"></i></a>
+                        <a class="next" onclick="plusSlides(1, 0)"><i class="bi bi-chevron-right ms-1"></i></a>
+                    </div>
+                    <!-- ****************************************************************** -->
+                    <div class="d-none d-md-flex bx-slide">
+                        <div class="me-3 mySlides">
+                            <img src="images/vehicle1.avif" class="w-100">
+                            <div class="box-slide d-flex flex-column p-3">
+                                <p class="m-0">2023</p>
+                                <span>Bronco® Sport</span>
+                                <span>Starting at $34,890</span>
+                                <a href="#" class="text-decoration-none">Overview</a>
+                                <span class="mt-5 text-info">View All Offers<i class="bi bi-chevron-right"></i> </span>
+                            </div>
+                        </div>
+                        <div class="mySlides">
+                            <img src="images/vehicle2.avif" class="w-100">
+                            <div class="box-slide d-flex flex-column p-3">
+                                <p class="m-0">2023</p>
+                                <span>Mustang Mach-E®</span>
+                                <span>Starting at $42,995</span>
+                                <a href="#" class="text-decoration-none">Overview</a>
+                                <span class="mt-5 text-info">View All Offers<i class="bi bi-chevron-right"></i> </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ********************************************************** -->
+            <div class="px-md-5 box5">
+                <div class="d-none d-md-flex justify-content-between py-5 bt-vehicle">
+                    <button class="w-100 mx-2 box-vehicle">Electric</button>
+                    <button class="w-100 mx-2 box-vehicle">Trucks</button>
+                    <button class="w-100 mx-2 box-vehicle">SUVs</button>
+                    <button class="w-100 mx-2 box-vehicle">Mustang</button>
+                    <button class="w-100 mx-2 box-vehicle">F-150</button>
+                    <button class="w-100 mx-2 box-vehicle">Bronco</button>
+                </div>
+                <!-- **** -->
+                <div class="d-flex d-md-none justify-content-between py-2 box-list">
+                    <span class="fs-3 nav-text">Electric</span>
+                    <i class="bi bi-plus fs-3 pt-2 box-icon"></i>
+                </div>
+
+                <div
+                    class="flex-column justify-content-end overflow-hidden vehicle-box electric-box box-list-item nav-showHidden">
+                    <span class="ms-3">The Electrifying Duo</span>
+                    <a href="#" class="text-decoration-none text-center text-black bg-light ms-3 mb-4">
+                        Shop Inventory
+                    </a>
+                    <a href="#" class="text-decoration-none text-center text-light ms-3 mb-4">
+                        Explore Electric
+                    </a>
+                    <p class="text-decoration-underline text-light ms-3 mb-4">Vehicle Details</p>
+                </div>
+                <!-- **** -->
+                <div class="d-flex d-md-none justify-content-between py-2 box-list">
+                    <span class="fs-3 nav-text">Trucks</span>
+                    <i class="bi bi-plus fs-3 pt-2 box-icon"></i>
+                </div>
+
+                <div
+                    class="flex-column justify-content-end overflow-hidden vehicle-box trucks-box box-list-item nav-showHidden button-showHidden">
+                    <span class="ms-3">The First Family Of Pickups</span>
+                    <a href="#" class="text-decoration-none text-center text-black bg-light ms-3 mb-4">
+                        Shop Inventory
+                    </a>
+                    <a href="#" class="text-decoration-none text-center text-light ms-3 mb-4">
+                        Explore Trucks
+                    </a>
+                </div>
+                <!-- **** -->
+                <div class="d-flex d-md-none justify-content-between py-2 box-list">
+                    <span class="fs-3 nav-text">SUVs</span>
+                    <i class="bi bi-plus fs-3 pt-2 box-icon"></i>
+                </div>
+
+                <div
+                    class="flex-column justify-content-end overflow-hidden vehicle-box suv-box box-list-item nav-showHidden button-showHidden">
+                    <span class="ms-3">There's An SUV For Everyone</span>
+                    <a href="#" class="text-decoration-none text-center text-black bg-light ms-3 mb-4">
+                        Shop Inventory
+                    </a>
+                    <a href="#" class="text-decoration-none text-center text-light ms-3 mb-4">
+                        Explore SUVs
+                    </a>
+                </div>
+                <!-- **** -->
+                <div class="d-flex d-md-none justify-content-between py-2 box-list">
+                    <span class="fs-3 nav-text">Mustang</span>
+                    <i class="bi bi-plus fs-3 pt-2 box-icon"></i>
+                </div>
+
+                <div
+                    class="flex-column justify-content-end overflow-hidden vehicle-box mustang-box box-list-item nav-showHidden button-showHidden">
+                    <span class="ms-3">Running Free</span>
+                    <a href="#" class="text-decoration-none text-center text-black bg-light ms-3 mb-4">
+                        Shop Inventory
+                    </a>
+                    <a href="#" class="text-decoration-none text-center text-light ms-3 mb-4">
+                        Explore Mustang
+                    </a>
+                </div>
+                <!-- **** -->
+                <div class="d-flex d-md-none justify-content-between py-2 box-list">
+                    <span class="fs-3 nav-text">F-150</span>
+                    <i class="bi bi-plus fs-3 pt-2 box-icon"></i>
+                </div>
+
+                <div
+                    class="flex-column justify-content-end overflow-hidden vehicle-box f-150-box box-list-item nav-showHidden button-showHidden">
+                    <span class="ms-3">Follow The Leader</span>
+                    <a href="#" class="text-decoration-none text-center text-black bg-light ms-3 mb-4">
+                        Shop Inventory
+                    </a>
+                    <a href="#" class="text-decoration-none text-center text-light ms-3 mb-4">
+                        Explore F-150
+                    </a>
+                </div>
+                <!-- **** -->
+                <div class="d-flex d-md-none justify-content-between py-2 box-list">
+                    <span class="fs-3 nav-text">Bronco</span>
+                    <i class="bi bi-plus fs-3 pt-2 box-icon"></i>
+                </div>
+
+                <div
+                    class="flex-column justify-content-end overflow-hidden vehicle-box bronco-box box-list-item nav-showHidden button-showHidden">
+                    <span class="ms-3">Roam Where You Want To</span>
+                    <a href="#" class="text-decoration-none text-center text-black bg-light ms-3 mb-4">
+                        Shop Inventory
+                    </a>
+                    <a href="#" class="text-decoration-none text-center text-light ms-3 mb-4">
+                        Explore Bronco
+                    </a>
+                </div>
+            </div>
+            <div class="mt-5 box6"></div>
+            <!-- ******************************************** -->
+            <div class="d-flex flex-column text-white py-5 px-3 p-lg-5 box7">
+                <h2 class="pb-2 fs-1">Hands-Free Highway Driving</h2>
+                <span>Experience the excitement of Ford BlueCruise <sup>127</sup> hands-free driving on thousands of
+                    highway miles.</span>
+                <a href="#" class="text-decoration-none text-center text-white mt-3">Explore BlueCruise <i
+                        class="bi bi-chevron-right"></i></a>
+            </div>
+            <!-- ********************************************* -->
+            <div class="box8">
+                <div class="slideshow-container">
+                    <div class="d-md-none mySlides2">
+                        <img src="images/Pickup&Delivery_Promo.avif" style="width:100%">
+                        <div class="box-slide d-flex flex-column p-3">
+                            <h3 class="fs-1">Ford Pickup & Delivery</h3>
+                            <span class="fs-6 pb-3">Maintenance made easy. On your schedule.</span>
+                            <a href="#" class="text-decoration-none">Learn More<i
+                                    class="bi bi-chevron-right ps-2"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="d-md-none mySlides2">
+                        <img src="images/BuiltFordProud_Promo.avif" style="width:100%">
+                        <div class="box-slide d-flex flex-column p-3">
+                            <h3 class="fs-1">Real People. Real Stories.</h3>
+                            <span class="fs-6">Meet the difference makers, legends and heroes that bring our Built Ford
+                                Proud <sup>™</sup> philosophy to life.</span>
+                            <a href="#" class="text-decoration-none">Learn More<i
+                                    class="bi bi-chevron-right ps-2"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center d-md-none pb-4 box-arrow">
+                        <a class="prev" onclick="plusSlides(-1, 1)"><i class="bi bi-chevron-left ms-1"></i></a>
+                        <a class="next" onclick="plusSlides(1, 1)"><i class="bi bi-chevron-right ms-1"></i></a>
+                    </div>
+                </div>
+                <!-- ******************************************************* -->
+                <div class="d-flex">
+                    <div class="w-50 d-none d-md-flex flex-column me-3 mySlides2">
+                        <img src="images/Pickup&Delivery_Promo.avif" style="width:100%">
+                        <div class="box-slide d-flex flex-column flex-fill justify-content-between p-3">
+                            <h3 class="fs-1">Ford Pickup & Delivery</h3>
+                            <span class="pb-3 fs-6">Maintenance made easy. On your schedule.</span>
+                            <a href="#" class="text-decoration-none">Learn More<i
+                                    class="bi bi-chevron-right ps-2"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="w-50 d-none d-md-block me-3 mySlides2">
+                        <img src="images/BuiltFordProud_Promo.avif" style="width:100%">
+                        <div class="box-slide d-flex flex-column p-3">
+                            <h3 class="fs-1">Real People. Real Stories.</h3>
+                            <span class="fs-6">Meet the difference makers, legends and heroes that bring our Built Ford
+                                Proud <sup>™</sup> philosophy to life.</span>
+                            <a href="#" class="text-decoration-none">Learn More<i
+                                    class="bi bi-chevron-right ps-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="px-3 py-5 box9">
+                <p class="p-0 me-auto">The auto industry is experiencing high demand and supply-chain constraints. Our
+                    ability to build new vehicles with some features may not be available. We are working to get valued
+                    customers like you behind the wheel of their new Ford, and you can always contact your Ford dealer
+                    for additional assistance.</p>
+            </div>
+            <div class="px-5 box10">
+                <div class="d-flex justify-content-between end-box pb-2 pt-4">
+                    <span class="pt-2">DISCLOSURES</span>
+                    <i class="bi bi-plus fs-3 box-icon"></i>
+                </div>
+                <div class="overflow-auto pt-4 end-item-box" style="display: none;">
+                    <div class="text-last">
+                        <h3>Note.</h3>
+                        <p class="m-0">Information is provided on an "as is" basis and could include technical,
+                            typographical or other errors. Ford makes no warranties, representations, or guarantees of
+                            any kind, express or implied, including but not limited to, accuracy, currency, or
+                            completeness, the operation of the Site, the information, materials, content, availability,
+                            and products. Ford reserves the right to change product specifications, pricing and
+                            equipment at any time without incurring obligations. Your Ford dealer is the best source of
+                            the most up-to-date information on Ford vehicles.
+                        </p>
+                        <br>
+                        <h3>1.</h3>
+                        <p class="m-0">Current MSRP for base vehicle. Excludes destination/delivery fee plus government
+                            fees and taxes, any finance charges, any dealer processing charge, any electronic filing
+                            charge, and any emission testing charge. Optional equipment not included. Starting A, Z and
+                            X Plan price is for qualified, eligible customers and excludes document fee,
+                            destination/delivery charge, taxes, title and registration. Not all vehicles qualify for A,
+                            Z or X Plan. All Mustang Shelby GT350 <sup>®</sup> and Shelby <sup>®</sup> GT350R prices
+                            exclude gas guzzler tax.</p>
+                        <h3>5.</h3>
+                        <p class="m-0">FordPass Connect (optional on select vehicles), the FordPass App; and
+                            complimentary Connected Service are required for remote features (see FordPass Terms for
+                            details). Connected service and features depend on compatible AT&T network availability.
+                            Evolving technology/cellular networks/vehicle capability may limit functionality and prevent
+                            operation of connected features. Connected service excludes WiFi hotspot.</p>
+                        <h3>6.</h3>
+                        <p class="m-0">Special APR offers applied to Estimated Selling Price. Special APR offers require
+                            Ford Credit Financing. Not all buyers will qualify. See dealer for qualifications and
+                            complete details.</p>
+                        <h3>7.</h3>
+                        <p class="m-0">Special Lease offers applied to Estimated Capitalized Cost. Special Lease offers
+                            require Ford Credit Financing. Not all buyers will qualify. See dealer for qualifications
+                            and complete details.</p>
+                        <h3>8.</h3>
+                        <p class="m-0">Current price for “as shown” vehicle excludes destination/delivery fee plus
+                            government fees and taxes, any finance charges, any dealer processing charge, any electronic
+                            filing charge, and any emission testing charge. Does not include A, Z or X Plan price. All
+                            Mustang Shelby GT350, Shelby GT350R and Shelby GT500 prices exclude gas guzzler tax.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex flex-column flex-lg-row justify-content-lg-between py-5 px-3 py-lg-5 px-lg-5 box11">
+                <div class="d-flex ps-3 bg-white box-search">
+                    <i class="bi bi-search fs-5 pt"></i>
+                    <form action="#"><input type="search" placeholder="search" class="w-100 border-0"></form>
+                </div>
+                <div class="d-flex flex-column flex-lg-row pt-3">
+                    <span class="text-dark fw-bolder pe-3">Popular</span>
+                    <ul class="d-flex flex-column flex-lg-row list-unstyled">
+                        <li>Lightning®</li>
+                        <li>Bronco®</li>
+                        <li>Maverick®</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="d-block d-lg-none box12">
+                <h2 class="fs-6 fw-bold text-dark py-4 m-0">All Vehicles</h2>
+                <ul class="list-unstyled">
+                    <li class="pt-1">SUVs & Crossovers</li>
+                    <li class="pt-1">Trucks & Vans</li>
+                    <li class="pt-1">Cars</li>
+                    <li class="pt-1">Electrified</li>
+                    <li class="pt-1">Commercial Vehicles</li>
+                    <li class="pt-1">Future Vehicles</li>
+                    <li class="pt-1">Certified Used</li>
+                    <li class="pt-1">All Vehicles</li>
+                    <li class="pt-1">Performance Vehicles</li>
+                </ul>
+                <div class="main-list-heading">
+                    <div class="fw-bolder border-top py-3 list-heading">Shopping Tools</div>
+                    <div class="text-list-end" style="display: none;">
+                        <ul class="list-unstyled">
+                            <li class="pt-1">Build & Price</li>
+                            <li class="pt-1">Search Inventory</li>
+                            <li class="pt-1">Get a Quote</li>
+                            <li class="pt-1">Current Offers</li>
+                            <li class="pt-1">Trade-In Value</li>
+                            <li class="pt-1">Towing Guides</li>
+                            <li class="pt-1">Compare Vehicles</li>
+                            <li class="pt-1">Get Updates</li>
+                            <li class="pt-1">Certified Used</li>
+                            <li class="pt-1">Inventory</li>
+                            <li class="pt-1">Going Electric</li>
+                        </ul>
+                    </div>
+                    <div class="fw-bolder border-top py-3 list-heading">Finance</div>
+                    <div class="text-list-end" style="display: none;">
+                        <ul class="list-unstyled">
+                            <li class="pt-1">SUVs & Crossovers</li>
+                            <li class="pt-1">Trucks & Vans</li>
+                            <li class="pt-1">Cars</li>
+                            <li class="pt-1">Electrified</li>
+                            <li class="pt-1">Commercial Vehicles</li>
+                            <li class="pt-1">Future Vehicles</li>
+                            <li class="pt-1">Certified Used</li>
+                            <li class="pt-1">All Vehicles</li>
+                            <li class="pt-1">Performance Vehicles</li>
+                        </ul>
+                    </div>
+                    <div class="fw-bolder border-top py-3 list-heading">Support</div>
+                    <div class="text-list-end" style="display: none;">
+                        <ul class="list-unstyled">
+                            <li class="pt-1">SUVs & Crossovers</li>
+                            <li class="pt-1">Trucks & Vans</li>
+                            <li class="pt-1">Cars</li>
+                            <li class="pt-1">Electrified</li>
+                            <li class="pt-1">Commercial Vehicles</li>
+                            <li class="pt-1">Future Vehicles</li>
+                            <li class="pt-1">Certified Used</li>
+                            <li class="pt-1">All Vehicles</li>
+                            <li class="pt-1">Performance Vehicles</li>
+                        </ul>
+                    </div>
+                    <div class="fw-bolder border-top py-3 list-heading">Experience Ford</div>
+                    <div class="text-list-end" style="display: none;">
+                        <ul class="border-bottom list-unstyled">
+                            <li class="pt-1">SUVs & Crossovers</li>
+                            <li class="pt-1">Trucks & Vans</li>
+                            <li class="pt-1">Cars</li>
+                            <li class="pt-1">Electrified</li>
+                            <li class="pt-1">Commercial Vehicles</li>
+                            <li class="pt-1">Future Vehicles</li>
+                            <li class="pt-1">Certified Used</li>
+                            <li class="pt-1">All Vehicles</li>
+                            <li class="pt-1">Performance Vehicles</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-lg-flex justify-content-center box13">
+                <div class="pe-5 text-list-end">
+                    <div class="fw-bolder border-top py-3 list-heading">All Vehicles</div>
+                    <ul class="list-unstyled">
+                        <li class="pt-1">SUVs & Crossovers</li>
+                        <li class="pt-1">Trucks & Vans</li>
+                        <li class="pt-1">Cars</li>
+                        <li class="pt-1">Electrified</li>
+                        <li class="pt-1">Commercial Vehicles</li>
+                        <li class="pt-1">Future Vehicles</li>
+                        <li class="pt-1">Certified Used</li>
+                        <li class="pt-1">All Vehicles</li>
+                        <li class="pt-1">Performance Vehicles</li>
+                    </ul>
+                </div>
+                <!-- ********************** -->
+                <div class="pe-5 text-list-end">
+                    <div class="fw-bolder border-top py-3 list-heading">Shopping Tools</div>
+                    <ul class="list-unstyled">
+                        <li class="pt-1">Build & Price</li>
+                        <li class="pt-1">Search Inventory</li>
+                        <li class="pt-1">Get a Quote</li>
+                        <li class="pt-1">Current Offers</li>
+                        <li class="pt-1">Trade-In Value</li>
+                        <li class="pt-1">Towing Guides</li>
+                        <li class="pt-1">Compare Vehicles</li>
+                        <li class="pt-1">Get Updates</li>
+                        <li class="pt-1">Certified Used</li>
+                        <li class="pt-1">Inventory</li>
+                        <li class="pt-1">Going Electric</li>
+                    </ul>
+                </div>
+                <!-- ***************** -->
+                <div class="pe-5 text-list-end">
+                    <div class="fw-bolder border-top py-3 list-heading">Finance</div>
+                    <ul class="list-unstyled">
+                        <li class="pt-1">Ford Credit Home</li>
+                        <li class="pt-1">Why Ford Credit</li>
+                        <li class="pt-1">Finance Options</li>
+                        <li class="pt-1">Payment Calculator</li>
+                        <li class="pt-1">Credit Education</li>
+                        <li class="pt-1">Customer Support</li>
+                        <li class="pt-1">Qualify for Financing</li>
+                        <li class="pt-1">Ford Credit Account</li>
+                        <li class="pt-1">Ford Insure</li>
+                        <li class="pt-1">Ford Interest Advantage</li>
+                        <li class="pt-1">Investor Center</li>
+                    </ul>
+                </div>
+                <!-- ************* -->
+                <div class="pe-5 text-list-end">
+                    <div class="fw-bolder border-top py-3 list-heading">Support</div>
+                    <ul class="list-unstyled">
+                        <li class="pt-1">Support Home</li>
+                        <li class="pt-1">Maintenance Schedule</li>
+                        <li class="pt-1">Your Warranty</li>
+                        <li class="pt-1">Coupons & Offers</li>
+                        <li class="pt-1">Redeem Rebates</li>
+                        <li class="pt-1">SYNC & Technology</li>
+                        <li class="pt-1">Locate a Dealer</li>
+                        <li class="pt-1">Ford Parts</li>
+                        <li class="pt-1">Contact Us</li>
+                        <li class="pt-1">Roadside Assistance</li>
+                        <li class="pt-1">Recalls</li>
+                        <li class="pt-1">Tire Finder</li>
+                        <li class="pt-1">How-To Videos</li>
+                    </ul>
+                </div>
+                <!-- ************ -->
+                <div class="pe-5 text-list-end">
+                    <div class="fw-bolder border-top py-3 list-heading">Experience Ford</div>
+                    <ul class="list-unstyled">
+                        <li class="pt-1">Corporate</li>
+                        <li class="pt-1">Careers</li>
+                        <li class="pt-1">Investors</li>
+                        <li class="pt-1">Company News</li>
+                        <li class="pt-1">About Ford</li>
+                        <li class="pt-1">Racing</li>
+                        <li class="pt-1">Accessories Store</li>
+                        <li class="pt-1">Warriors in Pink</li>
+                        <li class="pt-1">Ford Merchandise</li>
+                        <li class="pt-1">Ford Motor Company Fund</li>
+                        <li class="pt-1">SYNC</li>
+                        <li class="pt-1">Connected Navigation</li>
+                        <li class="pt-1">FordPass</li>
+                        <li class="pt-1">Ford Co-Pilot360 Technology</li>
+                        <li class="pt-1">Ford Telematics</li>
+                        <li class="pt-1">Accessibility Program</li>
+                    </ul>
+                </div>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+                integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+            <script src="js/index.js"></script>
+</body>
+
+</html>
